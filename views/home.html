@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Main css -->
+    <link rel="stylesheet" href="../public/css/main.css">
+
+    <title>Animation playground</title>
+</head>
+<body>
+    <div class="workspace">
+        <div class="chemistry">
+            <svg viewBox="0 0 184 227" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <mask id="chemistryLiquidMask">
+                        <path d="M50.49 84.37c-16.82 30.62-28 49.58-33.52 56.9-7.77 10.31-10.75 18.17-8.92 23.58h167.68c.87-5.64-1.73-12.63-7.8-20.98-4.34-5.95-14.3-27.57-34.27-58.7a10.6 10.6 0 0 0-7.81-4.91c-11-1.63-25.67 4.9-37.53 8.28-11.89 3.39-26.46-2.94-31.04-4.17-2.4-.64-4.43-4.3-6.8 0z" fill="#FFFFFF"/>
+
+                        <g transform="translate(58 177)" fill="#000">
+                            <circle class="chemistry__liquid chemistry__liquid-one" cx="7" cy="0" r="7"/>
+                            <circle class="chemistry__liquid chemistry__liquid-two" cx="38" cy="0" r="7"/>
+                            <circle class="chemistry__liquid chemistry__liquid-three" cx="41" cy="0" r="4"/>
+                            <circle class="chemistry__liquid chemistry__liquid-four" cx="18" cy="0" r="4"/>
+                            <circle class="chemistry__liquid chemistry__liquid-five" cx="21" cy="0" r="4"/>
+                            <circle class="chemistry__liquid chemistry__liquid-six" cx="24.5" cy="0" r="2.5"/>
+                            <circle class="chemistry__liquid chemistry__liquid-seven" cx="52.5" cy="0" r="2.5"/>
+                            <circle class="chemistry__liquid chemistry__liquid-eight" cx="58" cy="0" r="10"/>
+                            <circle class="chemistry__liquid chemistry__liquid-nine" cx="59.5" cy="0" r="4.5"/>
+                        </g>
+                    </mask>
+                </defs>
+
+
+                <g fill="none" fill-rule="evenodd">
+                    <path d="M60.7 13.32h9.52v19.87C37.37 93.46 16.31 131.39 7.03 147c-9.28 15.61-5.2 23.42 12.24 23.42h153.18c10.23 0 11.47-7.8 3.73-23.42-7.74-15.6-30-53.54-66.77-113.81V13.32h9.97V2H60.7v11.32z" stroke="#505050" stroke-width="4"/>
+
+                    <g id="chemistryLiquid" mask="url(#chemistryLiquidMask)">
+                        <path d="M50.49 84.37c-16.82 30.62-28 49.58-33.52 56.9-7.77 10.31-10.75 18.17-8.92 23.58h167.68c.87-5.64-1.73-12.63-7.8-20.98-4.34-5.95-14.3-27.57-34.27-58.7a10.6 10.6 0 0 0-7.81-4.91c-11-1.63-25.67 4.9-37.53 8.28-11.89 3.39-26.46-2.94-31.04-4.17-2.4-.64-4.43-4.3-6.8 0z" fill="#2C79E9"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+
+
+    <script src="../public/js/main.js"></script>
+</body>
+</html>

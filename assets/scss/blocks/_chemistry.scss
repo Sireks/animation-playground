@@ -1,0 +1,75 @@
+.chemistry {
+    height: 200px;
+    width: 200px;
+
+    & svg {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 120px;
+    }
+
+    &__liquid {
+        animation-name: chemistryLiquids;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+
+
+        &-one {
+            animation-delay: 2.4s;
+            animation-duration: 5s;
+        }
+
+        &-two {
+            animation-delay: 1.7s;
+            animation-duration: 5s;
+        }
+
+        &-three {
+            animation-delay: 5s;
+            animation-duration: 3s;
+        }
+
+        &-four {
+            animation-delay: 0s;
+            animation-duration: 4s;
+        }
+
+        &-five {
+            animation-delay: 4s;
+            animation-duration: 8s;
+        }
+
+        &-six {
+            animation-delay: 1s;
+            animation-duration: 3s;
+        }
+
+        &-seven {
+            animation-delay: 2s;
+            animation-duration: 2.5s;
+        }
+
+        &-eight {
+            animation-delay: 7s;
+            animation-duration: 10s;
+        }
+
+        &-nine {
+            animation-delay: 4.5s;
+            animation-duration: 5s;
+        }
+    }
+}
+
+
+@keyframes chemistryLiquids {
+    0% {
+        cy: 0px;
+    }
+
+    100% {
+        cy: -200px;
+    }
+}

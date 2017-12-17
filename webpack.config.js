@@ -44,7 +44,6 @@ const config = {
             {
                 test: /\.scss$/,
                 use: ExtractTextPlugin.extract({
-                    // use: ['css-loader', 'autoprefixer-loader?safe=true', 'sass-loader']
                     use: ['css-loader', 'autoprefixer-loader', 'sass-loader']
                 })
             }
